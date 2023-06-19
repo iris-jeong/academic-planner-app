@@ -1,0 +1,98 @@
+/* CONTENT */
+
+.content {
+	padding-left: 48px;
+	overflow: hidden;
+}
+.content-child {
+	max-width: 100%;
+}
+.body {
+	display: flex;
+	flex-direction: column;
+}
+
+/* SEMESTER TITLE */
+.semester-container {
+	display: flex;
+	align-items: center;
+}
+
+.sem-title {
+	color: rgb(0, 0, 0);
+	padding: 12px 0px;
+	font-weight: 800;
+	font-size: 18px;
+}
+.year {
+	margin-left: 3px;
+}
+.edit-btn {
+	margin-left: 10px;
+	color: #38afb5;
+}
+
+/* CARDS */
+h5 {
+	padding: 15px 0px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.cards-container {
+	position: relative;
+	display: flex;
+	margin-left: -48px;
+	padding-left: 48px;
+	overflow-x: auto;
+	margin-bottom: 20px;
+	padding-bottom: 16px;
+}
+.card {
+	background-color: #fafafa;
+	flex: 0 0 auto;
+	width: 280px;
+	border-radius: 20px;
+	margin-right: 20px;
+}
+.card-title {
+	background-image: repeating-linear-gradient(
+		-45deg,
+		rgba(255, 255, 255, 0.25),
+		rgba(255, 255, 255, 0.25) 1px,
+		transparent 1px,
+		transparent 6px
+	);
+	background-size: 4px 4px;
+}
+.card-text {
+	color: rgb(97, 97, 97);
+}
+.itp {
+	background-color: #ff8ba0;
+	color: white;
+}
+.psyc {
+	background-color: #f58d4e;
+	color: white;
+}
+.csci {
+	background-color: #00c69e;
+	color: white;
+}
+.math {
+	background-color: #38afb5;
+	color: white;
+}
+.phil {
+	background-color: #a886dd;
+	color: white;
+}
+.mkt {
+	background-color: #fcde30;
+	color: white;
+}
+
+.gray {
+	background-color: rgb(228, 228, 228);
+}

@@ -1,0 +1,144 @@
+@font-face {
+	font-family: "Inter";
+	src: url("../fonts/Inter/Inter.ttf");
+}
+@font-face {
+	font-family: "Inter Bold";
+	src: url("../fonts/Inter/static/Inter-Bold.ttf");
+}
+@font-face {
+	font-family: "Syne";
+	src: url("../fonts/Syne/Syne-VariableFont_wght.ttf");
+}
+body {
+	font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+/* * * * COLORS * * * */
+.red {
+	background-color: #ff5249;
+	color: #ffff;
+}
+.white {
+	background-color: #ffff;
+}
+.blue {
+	background-color: #4f80dc;
+	color: #ffff;
+}
+.yellow {
+	background-color: #ffdf92;
+}
+.green {
+	background-color: #13d0c9;
+	color: #ffff;
+}
+/* * * * LINKS * * * */
+a {
+	text-decoration: none;
+	color: rgb(45, 45, 45);
+}
+/* MAIN CONTAINER */
+.main-container {
+	/* background-color: #cecece; */
+	display: flex;
+}
+/* * * *  CONTENT * * * */
+.content {
+	width: 100%;
+	display: flex;
+}
+.content-child {
+	display: flex;
+	flex-direction: column;
+}
+/* * * *  HEADER * * * */
+.header {
+	width: 100%;
+	display: flex;
+	padding: 40px 0px;
+	margin-top: 30px;
+}
+/* * * * FOOTER  * * * */
+.footer {
+	/* background-color: plum; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100px;
+}
+/* * * * SIDE NAVIGATION * * * */
+.nav-container {
+	background-color: #ffffff;
+	border-right: 1px solid #cecece;
+	padding-top: 50px;
+	min-width: 270px;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+.nav-links-container {
+	margin-top: 20px;
+}
+
+.user-info {
+	display: flex;
+	align-items: center;
+	margin-bottom: 15px;
+	padding-left: 20px;
+}
+.profile-pic {
+	width: 50px;
+	height: 50px;
+}
+.name {
+	font-weight: bold;
+}
+hr {
+	margin-right: 15px;
+}
+a:link {
+	text-decoration: none;
+}
+.nav-item {
+	padding: 10px 20px;
+}
+.nav-item:hover {
+	background-color: #f9f9f9;
+}
+.icons {
+	width: 30px;
+	height: 30px;
+	margin-right: 5px;
+}
+
+/* * * * BUTTONS * * * */
+.buttons {
+	border: none;
+	border-radius: 7px;
+	background-color: #4f80dc;
+	color: white;
+	padding: 10px 28px;
+	text-decoration: none;
+}
+.buttons:hover {
+	background-color: #3369cb;
+	color: white;
+}
+
+.next-btn {
+	border: none;
+	border-radius: 7px;
+	background-color: #4f80dc;
+	color: white;
+	padding: 10px 28px;
+	text-decoration: none;
+}
+.cancel-btn {
+	border: none;
+	border-radius: 7px;
+	background-color: #d8d8d8;
+	color: #000;
+	padding: 10px 28px;
+	text-decoration: none;
+}

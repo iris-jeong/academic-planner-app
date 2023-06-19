@@ -1,0 +1,41 @@
+.back-button {
+	width: 300px;
+	background-color: #3369cb;
+	color: white;
+	border-radius: 7px;
+	border-style: none;
+	padding: 10px 20px;
+	text-align: center;
+	margin-top: 50px;
+}
+.back-button:hover {
+	background-color: #1d56be;
+	color: white;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+a:hover {
+	color: white;
+}
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 100px;
+}
+h1 {
+	text-align: center;
+}
+.container {
+	width: fit-content;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.content {
+	background-color: pink;
+	width: 300px;
+}
