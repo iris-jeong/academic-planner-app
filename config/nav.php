@@ -46,7 +46,7 @@
 			<a href="schedule.php">
 				<img
 					class="icons"
-					src="icons/ScheduleIcon.png"
+					src="icons/schedule.png"
 					alt="My Schedule Icon"
 				/>
 				My Schedule
